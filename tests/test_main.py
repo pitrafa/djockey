@@ -11,5 +11,5 @@ class MainTest(TestCase):
     def tearDown(self):
         pass
 
-    def test_one(self):
-        self.fail('Write this test')
+    def test_main_can_sum(self):
+        self.assertEqual(self.main.sum(2, 2), 4)
